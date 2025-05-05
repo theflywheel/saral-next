@@ -1,0 +1,172 @@
+0 silly argv {
+0 silly argv   _: [ 'version' ],
+0 silly argv   lernaVersion: '8.2.2',
+0 silly argv   '$0': 'node_modules\\lerna\\dist\\cli.js'
+0 silly argv }
+1 notice cli v8.2.2
+2 verbose packageConfigs Explicit "packages" configuration found in lerna.json. Resolving packages using the configured glob(s): ["packages/*"]
+3 verbose rootPath D:\PROJECTS\npmjs\saral-toolkit
+4 info current version 1.0.0
+5 silly isAnythingCommitted
+6 verbose isAnythingCommitted 1
+7 silly getCurrentBranch
+8 verbose currentBranch main
+9 silly remoteBranchExists
+10 silly isBehindUpstream
+11 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 0
+12 silly hasTags
+13 verbose hasTags true
+14 silly git-describe.sync "v1.0.0-24-gc2f2df7" => {"lastTagName":"v1.0.0","lastVersion":"v1.0.0","refCount":"24","sha":"c2f2df7","isDirty":false}
+15 info Looking for changed packages since v1.0.0
+16 silly checking diff packages/core
+17 silly found diff in packages/core/README.md
+17 silly found diff in packages/core/__tests__/ProjectService.test.ts
+17 silly found diff in packages/core/__tests__/core.test.js
+17 silly found diff in packages/core/__tests__/utils.test.ts
+17 silly found diff in packages/core/jest.config.js
+17 silly found diff in packages/core/jest.setup.js
+17 silly found diff in packages/core/lib/ProjectService.ts
+17 silly found diff in packages/core/lib/core.ts
+17 silly found diff in packages/core/lib/hooks/useCaptureConfig.ts
+17 silly found diff in packages/core/lib/hooks/useProject.ts
+17 silly found diff in packages/core/lib/hooks/useSourceSink.ts
+17 silly found diff in packages/core/lib/types.ts
+17 silly found diff in packages/core/lib/utils/helpers.ts
+17 silly found diff in packages/core/lib/utils/storage.ts
+17 silly found diff in packages/core/lib/utils/validation.ts
+17 silly found diff in packages/core/package.json
+17 silly found diff in packages/core/tsconfig.json
+18 verbose filtered diff [
+18 verbose filtered diff   'packages/core/README.md',
+18 verbose filtered diff   'packages/core/__tests__/ProjectService.test.ts',
+18 verbose filtered diff   'packages/core/__tests__/core.test.js',
+18 verbose filtered diff   'packages/core/__tests__/utils.test.ts',
+18 verbose filtered diff   'packages/core/jest.config.js',
+18 verbose filtered diff   'packages/core/jest.setup.js',
+18 verbose filtered diff   'packages/core/lib/ProjectService.ts',
+18 verbose filtered diff   'packages/core/lib/core.ts',
+18 verbose filtered diff   'packages/core/lib/hooks/useCaptureConfig.ts',
+18 verbose filtered diff   'packages/core/lib/hooks/useProject.ts',
+18 verbose filtered diff   'packages/core/lib/hooks/useSourceSink.ts',
+18 verbose filtered diff   'packages/core/lib/types.ts',
+18 verbose filtered diff   'packages/core/lib/utils/helpers.ts',
+18 verbose filtered diff   'packages/core/lib/utils/storage.ts',
+18 verbose filtered diff   'packages/core/lib/utils/validation.ts',
+18 verbose filtered diff   'packages/core/package.json',
+18 verbose filtered diff   'packages/core/tsconfig.json'
+18 verbose filtered diff ]
+19 silly checking diff packages/demo
+20 silly found diff in packages/demo/package.json
+20 silly found diff in packages/demo/public/favicon.ico
+20 silly found diff in packages/demo/public/index.html
+20 silly found diff in packages/demo/src/App.tsx
+20 silly found diff in packages/demo/src/CoreDemo.tsx
+20 silly found diff in packages/demo/src/ParserDemo.tsx
+20 silly found diff in packages/demo/src/index.tsx
+20 silly found diff in packages/demo/src/styles.css
+20 silly found diff in packages/demo/tsconfig.json
+20 silly found diff in packages/demo/webpack.config.js
+21 verbose filtered diff [
+21 verbose filtered diff   'packages/demo/package.json',
+21 verbose filtered diff   'packages/demo/public/favicon.ico',
+21 verbose filtered diff   'packages/demo/public/index.html',
+21 verbose filtered diff   'packages/demo/src/App.tsx',
+21 verbose filtered diff   'packages/demo/src/CoreDemo.tsx',
+21 verbose filtered diff   'packages/demo/src/ParserDemo.tsx',
+21 verbose filtered diff   'packages/demo/src/index.tsx',
+21 verbose filtered diff   'packages/demo/src/styles.css',
+21 verbose filtered diff   'packages/demo/tsconfig.json',
+21 verbose filtered diff   'packages/demo/webpack.config.js'
+21 verbose filtered diff ]
+22 silly checking diff packages/parser-ui
+23 silly found diff in packages/parser-ui/__tests__/components.tests.tsx
+23 silly found diff in packages/parser-ui/__tests__/parser-ui.test.js
+23 silly found diff in packages/parser-ui/jest.config.js
+23 silly found diff in packages/parser-ui/lib/components/DocumentParser.tsx
+23 silly found diff in packages/parser-ui/lib/components/DocumentUploader.tsx
+23 silly found diff in packages/parser-ui/lib/components/DocumentViewer.tsx
+23 silly found diff in packages/parser-ui/lib/components/ParsedResultsPanel.tsx
+23 silly found diff in packages/parser-ui/lib/parser-ui.ts
+23 silly found diff in packages/parser-ui/lib/services/ParserService.ts
+23 silly found diff in packages/parser-ui/lib/types.ts
+23 silly found diff in packages/parser-ui/lib/utils/helpers.ts
+23 silly found diff in packages/parser-ui/package.json
+23 silly found diff in packages/parser-ui/tsconfig.json
+24 verbose filtered diff [
+24 verbose filtered diff   'packages/parser-ui/__tests__/components.tests.tsx',
+24 verbose filtered diff   'packages/parser-ui/__tests__/parser-ui.test.js',
+24 verbose filtered diff   'packages/parser-ui/jest.config.js',
+24 verbose filtered diff   'packages/parser-ui/lib/components/DocumentParser.tsx',
+24 verbose filtered diff   'packages/parser-ui/lib/components/DocumentUploader.tsx',
+24 verbose filtered diff   'packages/parser-ui/lib/components/DocumentViewer.tsx',
+24 verbose filtered diff   'packages/parser-ui/lib/components/ParsedResultsPanel.tsx',
+24 verbose filtered diff   'packages/parser-ui/lib/parser-ui.ts',
+24 verbose filtered diff   'packages/parser-ui/lib/services/ParserService.ts',
+24 verbose filtered diff   'packages/parser-ui/lib/types.ts',
+24 verbose filtered diff   'packages/parser-ui/lib/utils/helpers.ts',
+24 verbose filtered diff   'packages/parser-ui/package.json',
+24 verbose filtered diff   'packages/parser-ui/tsconfig.json'
+24 verbose filtered diff ]
+25 verbose updated core-saral
+26 verbose updated saral-demo
+27 verbose updated parser-ui
+28 verbose git-describe undefined => "v1.0.0-24-gc2f2df7"
+29 silly git-describe parsed => {"lastTagName":"v1.0.0","lastVersion":"v1.0.0","refCount":"24","sha":"c2f2df7","isDirty":false}
+30 silly fixed for core-saral at D:\PROJECTS\npmjs\saral-toolkit\packages\core
+31 verbose getChangelogConfig using preset "conventional-changelog-angular"
+32 silly npa Result {
+32 silly npa   type: 'range',
+32 silly npa   registry: true,
+32 silly npa   where: undefined,
+32 silly npa   raw: 'conventional-changelog-angular',
+32 silly npa   name: 'conventional-changelog-angular',
+32 silly npa   escapedName: 'conventional-changelog-angular',
+32 silly npa   scope: undefined,
+32 silly npa   rawSpec: '*',
+32 silly npa   saveSpec: null,
+32 silly npa   fetchSpec: '*',
+32 silly npa   gitRange: undefined,
+32 silly npa   gitCommittish: undefined,
+32 silly npa   gitSubdir: undefined,
+32 silly npa   hosted: undefined
+32 silly npa }
+33 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
+34 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
+35 verbose fixed increment 1.0.0 by patch
+36 silly fixed for saral-demo at D:\PROJECTS\npmjs\saral-toolkit\packages\demo
+37 verbose fixed increment 1.0.0 by patch
+38 silly fixed for parser-ui at D:\PROJECTS\npmjs\saral-toolkit\packages\parser-ui
+39 verbose fixed increment 1.0.0 by patch
+40 info execute Skipping releases
+41 silly lifecycle No script for "preversion" in "root", continuing
+42 silly lifecycle No script for "preversion" in "core-saral", continuing
+43 verbose version core-saral has no lockfile. Skipping lockfile update.
+44 silly lifecycle No script for "version" in "core-saral", continuing
+45 silly fixed for core-saral at D:\PROJECTS\npmjs\saral-toolkit\packages\core
+46 silly fixed writing new entry: "## [1.0.1](https://github.com/saiteja-in/saral-toolkit/compare/v1.0.0...v1.0.1) (2025-05-05)\n\n**Note:** Version bump only for package core-saral\n\n\n\n"
+47 verbose fixed wrote D:\PROJECTS\npmjs\saral-toolkit\packages\core\CHANGELOG.md
+48 silly lifecycle No script for "preversion" in "parser-ui", continuing
+49 verbose version parser-ui has no lockfile. Skipping lockfile update.
+50 silly lifecycle No script for "version" in "parser-ui", continuing
+51 silly fixed for parser-ui at D:\PROJECTS\npmjs\saral-toolkit\packages\parser-ui
+52 silly fixed writing new entry: "## [1.0.1](https://github.com/saiteja-in/saral-toolkit/compare/v1.0.0...v1.0.1) (2025-05-05)\n\n**Note:** Version bump only for package parser-ui\n\n\n\n"
+53 verbose fixed wrote D:\PROJECTS\npmjs\saral-toolkit\packages\parser-ui\CHANGELOG.md
+54 silly lifecycle No script for "preversion" in "saral-demo", continuing
+55 verbose version saral-demo has no lockfile. Skipping lockfile update.
+56 silly lifecycle No script for "version" in "saral-demo", continuing
+57 silly fixed for saral-demo at D:\PROJECTS\npmjs\saral-toolkit\packages\demo
+58 silly fixed writing new entry: "## [1.0.1](https://github.com/saiteja-in/saral-toolkit/compare/v1.0.0...v1.0.1) (2025-05-05)\n\n**Note:** Version bump only for package saral-demo\n\n\n\n"
+59 verbose fixed wrote D:\PROJECTS\npmjs\saral-toolkit\packages\demo\CHANGELOG.md
+60 silly root for root at D:\PROJECTS\npmjs\saral-toolkit
+61 silly root writing new entry: "## [1.0.1](https://github.com/saiteja-in/saral-toolkit/compare/v1.0.0...v1.0.1) (2025-05-05)\n\n**Note:** Version bump only for package root\n\n\n\n"
+62 verbose root wrote D:\PROJECTS\npmjs\saral-toolkit\CHANGELOG.md
+63 silly lifecycle No script for "version" in "root", continuing
+64 error Error: Command failed with exit code 1: yarn --version
+64 error 'yarn' is not recognized as an internal or external command,
+64 error operable program or batch file.
+64 error     at makeError (D:\PROJECTS\npmjs\saral-toolkit\node_modules\execa\lib\error.js:59:11)
+64 error     at module.exports.sync (D:\PROJECTS\npmjs\saral-toolkit\node_modules\execa\index.js:186:17)
+64 error     at Object.execSync (D:\PROJECTS\npmjs\saral-toolkit\node_modules\lerna\dist\index.js:1579:31)
+64 error     at execPackageManagerSync (D:\PROJECTS\npmjs\saral-toolkit\node_modules\lerna\dist\index.js:3658:24)
+64 error     at VersionCommand.updatePackageVersions (D:\PROJECTS\npmjs\saral-toolkit\node_modules\lerna\dist\index.js:9885:31)
+64 error     at async Promise.all (index 0)
